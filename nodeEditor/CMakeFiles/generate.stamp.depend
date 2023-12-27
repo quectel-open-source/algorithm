@@ -1,0 +1,60 @@
+# CMake generation dependency list for this directory.
+C:/Users/weilong.wu/Desktop/QT/nodeEditor/CMakeFiles/3.26.1/CMakeCXXCompiler.cmake
+C:/Users/weilong.wu/Desktop/QT/nodeEditor/CMakeFiles/3.26.1/CMakeRCCompiler.cmake
+C:/Users/weilong.wu/Desktop/QT/nodeEditor/CMakeFiles/3.26.1/CMakeSystem.cmake
+C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/CMakeLists.txt
+C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/cmake/QtNodesConfig.cmake.in
+C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/resources/resources.qrc
+E:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCXXInformation.cmake
+E:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake
+E:/Program Files/CMake/share/cmake-3.26/Modules/CMakeGenericSystem.cmake
+E:/Program Files/CMake/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake
+E:/Program Files/CMake/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake
+E:/Program Files/CMake/share/cmake-3.26/Modules/CMakePackageConfigHelpers.cmake
+E:/Program Files/CMake/share/cmake-3.26/Modules/CMakeParseArguments.cmake
+E:/Program Files/CMake/share/cmake-3.26/Modules/CMakeRCInformation.cmake
+E:/Program Files/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake
+E:/Program Files/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake
+E:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+E:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/MSVC-CXX.cmake
+E:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/MSVC.cmake
+E:/Program Files/CMake/share/cmake-3.26/Modules/GNUInstallDirs.cmake
+E:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC-CXX.cmake
+E:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC.cmake
+E:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows.cmake
+E:/Program Files/CMake/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake
+E:/Program Files/CMake/share/cmake-3.26/Modules/WriteBasicConfigVersionFile.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5/Qt5Config.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake
+E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake

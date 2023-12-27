@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/cmake/FindSphinx.cmake
+C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/docs/CMakeLists.txt
+E:/Program Files/CMake/share/cmake-3.26/Modules/FindDoxygen.cmake
+E:/Program Files/CMake/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake
+E:/Program Files/CMake/share/cmake-3.26/Modules/FindPackageMessage.cmake

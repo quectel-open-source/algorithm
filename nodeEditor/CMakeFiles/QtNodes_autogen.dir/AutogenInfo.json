@@ -1,0 +1,345 @@
+{
+	"BUILD_DIR" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/QtNodes_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/weilong.wu/Desktop/QT/nodeeditor-master",
+	"CMAKE_EXECUTABLE" : "E:/Program Files/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/CMakeLists.txt",
+		"C:/Users/weilong.wu/Desktop/QT/nodeEditor/CMakeFiles/3.26.1/CMakeSystem.cmake",
+		"E:/Program Files/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake",
+		"C:/Users/weilong.wu/Desktop/QT/nodeEditor/CMakeFiles/3.26.1/CMakeCXXCompiler.cmake",
+		"E:/Program Files/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake",
+		"E:/Program Files/CMake/share/cmake-3.26/Modules/CMakeGenericSystem.cmake",
+		"E:/Program Files/CMake/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake",
+		"E:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows.cmake",
+		"E:/Program Files/CMake/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake",
+		"E:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCXXInformation.cmake",
+		"E:/Program Files/CMake/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake",
+		"E:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/MSVC-CXX.cmake",
+		"E:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/MSVC.cmake",
+		"E:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"E:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC-CXX.cmake",
+		"E:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC.cmake",
+		"C:/Users/weilong.wu/Desktop/QT/nodeEditor/CMakeFiles/3.26.1/CMakeRCCompiler.cmake",
+		"E:/Program Files/CMake/share/cmake-3.26/Modules/CMakeRCInformation.cmake",
+		"E:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"E:/Program Files/CMake/share/cmake-3.26/Modules/CMakeParseArguments.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"E:/Program Files/CMake/share/cmake-3.26/Modules/CMakeParseArguments.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/resources/resources.qrc",
+		"E:/Program Files/CMake/share/cmake-3.26/Modules/GNUInstallDirs.cmake",
+		"E:/Program Files/CMake/share/cmake-3.26/Modules/CMakePackageConfigHelpers.cmake",
+		"E:/Program Files/CMake/share/cmake-3.26/Modules/WriteBasicConfigVersionFile.cmake",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/cmake/QtNodesConfig.cmake.in"
+	],
+	"CMAKE_SOURCE_DIR" : "C:/Users/weilong.wu/Desktop/QT/nodeeditor-master",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/src/ConnectionPainter.hpp",
+			"Mu",
+			"UVLADIE3JM/moc_ConnectionPainter.cpp",
+			null
+		],
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/src/DefaultHorizontalNodeGeometry.hpp",
+			"Mu",
+			"UVLADIE3JM/moc_DefaultHorizontalNodeGeometry.cpp",
+			null
+		],
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/src/DefaultVerticalNodeGeometry.hpp",
+			"Mu",
+			"UVLADIE3JM/moc_DefaultVerticalNodeGeometry.cpp",
+			null
+		],
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/src/NodeConnectionInteraction.hpp",
+			"Mu",
+			"UVLADIE3JM/moc_NodeConnectionInteraction.cpp",
+			null
+		],
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/src/UndoCommands.hpp",
+			"Mu",
+			"UVLADIE3JM/moc_UndoCommands.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/QtNodes_autogen/include",
+	"INCLUDE_DIR_Debug" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/QtNodes_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/QtNodes_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/QtNodes_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/QtNodes_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/QtNodes_autogen/mocs_compilation.cpp",
+	"MOC_COMPILATION_FILE_Debug" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/QtNodes_autogen/mocs_compilation_Debug.cpp",
+	"MOC_COMPILATION_FILE_MinSizeRel" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/QtNodes_autogen/mocs_compilation_MinSizeRel.cpp",
+	"MOC_COMPILATION_FILE_RelWithDebInfo" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/QtNodes_autogen/mocs_compilation_RelWithDebInfo.cpp",
+	"MOC_COMPILATION_FILE_Release" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/QtNodes_autogen/mocs_compilation_Release.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"NODE_EDITOR_EXPORTS",
+		"NODE_EDITOR_SHARED",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_NO_KEYWORDS",
+		"QT_OPENGL_LIB",
+		"QT_WIDGETS_LIB",
+		"QtNodes_EXPORTS",
+		"WIN32"
+	],
+	"MOC_DEFINITIONS_Debug" : 
+	[
+		"NODE_EDITOR_EXPORTS",
+		"NODE_EDITOR_SHARED",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_KEYWORDS",
+		"QT_OPENGL_LIB",
+		"QT_WIDGETS_LIB",
+		"QtNodes_EXPORTS",
+		"WIN32"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/src",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include/QtNodes/internal",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/include",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/include/QtCore",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/mkspecs/win32-msvc",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/include/QtWidgets",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/include/QtGui",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/include/QtANGLE",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/include/QtOpenGL"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include/QtNodes/internal/AbstractGraphModel.hpp",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include/QtNodes/internal/AbstractNodeGeometry.hpp",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include/QtNodes/internal/AbstractNodePainter.hpp",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include/QtNodes/internal/BasicGraphicsScene.hpp",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include/QtNodes/internal/Compiler.hpp",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include/QtNodes/internal/ConnectionGraphicsObject.hpp",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include/QtNodes/internal/ConnectionIdHash.hpp",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include/QtNodes/internal/ConnectionIdUtils.hpp",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include/QtNodes/internal/ConnectionState.hpp",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include/QtNodes/internal/ConnectionStyle.hpp",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include/QtNodes/internal/DataFlowGraphModel.hpp",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include/QtNodes/internal/DataFlowGraphicsScene.hpp",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include/QtNodes/internal/DefaultNodePainter.hpp",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include/QtNodes/internal/Definitions.hpp",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include/QtNodes/internal/Export.hpp",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include/QtNodes/internal/GraphicsView.hpp",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include/QtNodes/internal/GraphicsViewStyle.hpp",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include/QtNodes/internal/NodeData.hpp",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include/QtNodes/internal/NodeDelegateModel.hpp",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include/QtNodes/internal/NodeDelegateModelRegistry.hpp",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include/QtNodes/internal/NodeGraphicsObject.hpp",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include/QtNodes/internal/NodeState.hpp",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include/QtNodes/internal/NodeStyle.hpp",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include/QtNodes/internal/OperatingSystem.hpp",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include/QtNodes/internal/QStringStdHash.hpp",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include/QtNodes/internal/QUuidStdHash.hpp",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include/QtNodes/internal/Serializable.hpp",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include/QtNodes/internal/Style.hpp",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include/QtNodes/internal/StyleCollection.hpp",
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include/QtNodes/internal/locateNode.hpp"
+	],
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/CMakeFiles/QtNodes_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/CMakeFiles/QtNodes_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_MinSizeRel" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/CMakeFiles/QtNodes_autogen.dir/ParseCache_MinSizeRel.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/CMakeFiles/QtNodes_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/CMakeFiles/QtNodes_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "E:/Qt5.12.9/5.12.9/msvc2017_64/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 12,
+	"SETTINGS_FILE" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/CMakeFiles/QtNodes_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/CMakeFiles/QtNodes_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/CMakeFiles/QtNodes_autogen.dir/AutogenUsed_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/CMakeFiles/QtNodes_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/CMakeFiles/QtNodes_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/src/AbstractGraphModel.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/src/AbstractNodeGeometry.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/src/BasicGraphicsScene.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/src/ConnectionGraphicsObject.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/src/ConnectionPainter.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/src/ConnectionState.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/src/ConnectionStyle.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/src/DataFlowGraphModel.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/src/DataFlowGraphicsScene.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/src/DefaultHorizontalNodeGeometry.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/src/DefaultNodePainter.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/src/DefaultVerticalNodeGeometry.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/src/Definitions.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/src/GraphicsView.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/src/GraphicsViewStyle.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/src/NodeConnectionInteraction.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/src/NodeDelegateModel.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/src/NodeDelegateModelRegistry.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/src/NodeGraphicsObject.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/src/NodeState.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/src/NodeStyle.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/src/StyleCollection.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/src/UndoCommands.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/src/locateNode.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}
