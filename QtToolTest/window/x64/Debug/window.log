@@ -1,0 +1,78 @@
+﻿  Reading Qt configuration (E:/Qt5.12.9/5.12.9/msvc2017_64/bin/qmake)
+  moc BarcodeClass.h
+  moc CameraClass.h
+  moc ImageToolClass.h
+  moc drawroi.h
+  moc hikcamera.h
+  moc LineWindow.h
+  moc cmylabel.h
+  moc CircleWindow.h
+  moc QRCodeWindow.h
+  moc TemplateWindow.h
+  moc EllipseWindow.h
+  moc RectangleWindow.h
+  moc IntersectionLineLineWindow.h
+  moc IntersectionCircleCircleWindow.h
+  BarcodeClass.cpp
+  CameraClass.cpp
+  CircleWindow.cpp
+  CMyLabel.cpp
+  drawroi.cpp
+  EllipseWindow.cpp
+  hikcamera.cpp
+  ImageToolClass.cpp
+d:\data\framework\demoalgorithmscene\qttooltest\window\hikcamera.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\data\framework\demoalgorithmscene\qttooltest\window\hikcamera.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 hikcamera.cpp)
+d:\data\framework\demoalgorithmscene\qttooltest\qttooltest\hikcamera.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 CameraClass.cpp)
+  IntersectionCircleCircleWindow.cpp
+d:\data\framework\demoalgorithmscene\qttooltest\detect\dataio.h(54): warning C4114: 多次使用同一类型限定符 (编译源文件 CircleWindow.cpp)
+d:\data\framework\demoalgorithmscene\qttooltest\detect\dataio.h(54): warning C4114: 多次使用同一类型限定符 (编译源文件 BarcodeClass.cpp)
+d:\data\framework\demoalgorithmscene\qttooltest\detect\dataio.h(54): warning C4114: 多次使用同一类型限定符 (编译源文件 EllipseWindow.cpp)
+  IntersectionLineLineWindow.cpp
+  LineWindow.cpp
+  QRCodeWindow.cpp
+  RectangleWindow.cpp
+  TemplateWindow.cpp
+d:\data\framework\demoalgorithmscene\qttooltest\window\hikcamera.cpp(398): warning C4305: “return”: 从“int”到“bool”截断
+d:\data\framework\demoalgorithmscene\qttooltest\detect\dataio.h(54): warning C4114: 多次使用同一类型限定符 (编译源文件 CameraClass.cpp)
+d:\data\framework\demoalgorithmscene\qttooltest\detect\dataio.h(54): warning C4114: 多次使用同一类型限定符 (编译源文件 IntersectionCircleCircleWindow.cpp)
+d:\data\framework\demoalgorithmscene\qttooltest\detect\dataio.h(54): warning C4114: 多次使用同一类型限定符 (编译源文件 IntersectionLineLineWindow.cpp)
+  tinyxml2.cpp
+  window.cpp
+d:\data\framework\demoalgorithmscene\qttooltest\window\hikcamera.cpp(110): warning C4715: “hikcamera::connectCamera”: 不是所有的控件路径都返回值
+d:\data\framework\demoalgorithmscene\qttooltest\window\hikcamera.cpp(87): warning C4715: “hikcamera::InitDevice”: 不是所有的控件路径都返回值
+d:\data\framework\demoalgorithmscene\qttooltest\window\hikcamera.cpp(563): warning C4715: “hikcamera::GetTriggerSource”: 不是所有的控件路径都返回值
+d:\data\framework\demoalgorithmscene\qttooltest\detect\dataio.h(54): warning C4114: 多次使用同一类型限定符 (编译源文件 LineWindow.cpp)
+d:\data\framework\demoalgorithmscene\qttooltest\detect\dataio.h(54): warning C4114: 多次使用同一类型限定符 (编译源文件 QRCodeWindow.cpp)
+d:\data\framework\demoalgorithmscene\qttooltest\detect\dataio.h(54): warning C4114: 多次使用同一类型限定符 (编译源文件 RectangleWindow.cpp)
+d:\data\framework\demoalgorithmscene\qttooltest\detect\dataio.h(54): warning C4114: 多次使用同一类型限定符 (编译源文件 TemplateWindow.cpp)
+d:\data\framework\demoalgorithmscene\qttooltest\detect\dataio.h(54): warning C4114: 多次使用同一类型限定符 (编译源文件 window.cpp)
+d:\data\framework\demoalgorithmscene\qttooltest\qttooltest\hikcamera.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 window.cpp)
+  moc_BarcodeClass.cpp
+  moc_CameraClass.cpp
+  moc_ImageToolClass.cpp
+  moc_drawroi.cpp
+  moc_hikcamera.cpp
+  moc_LineWindow.cpp
+  moc_cmylabel.cpp
+d:\data\framework\demoalgorithmscene\qttooltest\window\hikcamera.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 x64\Debug\moc\moc_hikcamera.cpp)
+  moc_CircleWindow.cpp
+d:\data\framework\demoalgorithmscene\qttooltest\qttooltest\hikcamera.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 x64\Debug\moc\moc_CameraClass.cpp)
+  moc_QRCodeWindow.cpp
+d:\data\framework\demoalgorithmscene\qttooltest\detect\dataio.h(54): warning C4114: 多次使用同一类型限定符 (编译源文件 x64\Debug\moc\moc_BarcodeClass.cpp)
+d:\data\framework\demoalgorithmscene\qttooltest\detect\dataio.h(54): warning C4114: 多次使用同一类型限定符 (编译源文件 x64\Debug\moc\moc_LineWindow.cpp)
+d:\data\framework\demoalgorithmscene\qttooltest\detect\dataio.h(54): warning C4114: 多次使用同一类型限定符 (编译源文件 x64\Debug\moc\moc_CircleWindow.cpp)
+  moc_TemplateWindow.cpp
+  moc_EllipseWindow.cpp
+  moc_RectangleWindow.cpp
+  moc_IntersectionLineLineWindow.cpp
+  moc_IntersectionCircleCircleWindow.cpp
+d:\data\framework\demoalgorithmscene\qttooltest\detect\dataio.h(54): warning C4114: 多次使用同一类型限定符 (编译源文件 x64\Debug\moc\moc_CameraClass.cpp)
+d:\data\framework\demoalgorithmscene\qttooltest\detect\dataio.h(54): warning C4114: 多次使用同一类型限定符 (编译源文件 x64\Debug\moc\moc_QRCodeWindow.cpp)
+d:\data\framework\demoalgorithmscene\qttooltest\detect\dataio.h(54): warning C4114: 多次使用同一类型限定符 (编译源文件 x64\Debug\moc\moc_TemplateWindow.cpp)
+d:\data\framework\demoalgorithmscene\qttooltest\detect\dataio.h(54): warning C4114: 多次使用同一类型限定符 (编译源文件 x64\Debug\moc\moc_EllipseWindow.cpp)
+d:\data\framework\demoalgorithmscene\qttooltest\detect\dataio.h(54): warning C4114: 多次使用同一类型限定符 (编译源文件 x64\Debug\moc\moc_IntersectionLineLineWindow.cpp)
+d:\data\framework\demoalgorithmscene\qttooltest\detect\dataio.h(54): warning C4114: 多次使用同一类型限定符 (编译源文件 x64\Debug\moc\moc_RectangleWindow.cpp)
+d:\data\framework\demoalgorithmscene\qttooltest\detect\dataio.h(54): warning C4114: 多次使用同一类型限定符 (编译源文件 x64\Debug\moc\moc_IntersectionCircleCircleWindow.cpp)
+    正在创建库 D:\data\framework\demoAlgorithmScene\QtToolTest\x64\Debug\window.lib 和对象 D:\data\framework\demoAlgorithmScene\QtToolTest\x64\Debug\window.exp
+  window.vcxproj -> D:\data\framework\demoAlgorithmScene\QtToolTest\x64\Debug\window.dll

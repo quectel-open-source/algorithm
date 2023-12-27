@@ -1,0 +1,23 @@
+﻿  drawroi.cpp
+  hikcamera.cpp
+  MvCamera.cpp
+  projectClass.cpp
+  testAlgorithm.cpp
+  tinyxml2.cpp
+  XmlClass2.cpp
+  QtToolTest.cpp
+c:\users\weilong.wu\desktop\demo0605\qttooltest\qttooltest\hikcamera.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\weilong.wu\desktop\demo0605\qttooltest\qttooltest\hikcamera.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 hikcamera.cpp)
+  main.cpp
+c:\users\weilong.wu\desktop\demo0605\qttooltest\qttooltest\hikcamera.cpp(398): warning C4305: “return”: 从“int”到“bool”截断
+c:\users\weilong.wu\desktop\demo0605\qttooltest\qttooltest\hikcamera.cpp(110): warning C4715: “hikcamera::connectCamera”: 不是所有的控件路径都返回值
+c:\users\weilong.wu\desktop\demo0605\qttooltest\qttooltest\hikcamera.cpp(87): warning C4715: “hikcamera::InitDevice”: 不是所有的控件路径都返回值
+c:\users\weilong.wu\desktop\demo0605\qttooltest\qttooltest\hikcamera.cpp(563): warning C4715: “hikcamera::GetTriggerSource”: 不是所有的控件路径都返回值
+  qrc_QtToolTest.cpp
+  moc_QtToolTest.cpp
+  moc_hikcamera.cpp
+  moc_drawroi.cpp
+  moc_projectClass.cpp
+c:\users\weilong.wu\desktop\demo0605\qttooltest\qttooltest\hikcamera.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 x64\Debug\moc\moc_hikcamera.cpp)
+    正在创建库 C:\Users\weilong.wu\Desktop\demo0605\QtToolTest\x64\Debug\QtToolTest.lib 和对象 C:\Users\weilong.wu\Desktop\demo0605\QtToolTest\x64\Debug\QtToolTest.exp
+  QtToolTest.vcxproj -> C:\Users\weilong.wu\Desktop\demo0605\QtToolTest\x64\Debug\QtToolTest.exe

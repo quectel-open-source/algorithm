@@ -1,0 +1,98 @@
+<nodesView process="0">
+    <node nodeName="Image" nodeProcessID="0">
+        <port portName="imagePath">
+            <isShow>true</isShow>
+            <isSelect>true</isSelect>
+            <isPortOut>true</isPortOut>
+        </port>
+        <port portName="outImage">
+            <isShow>true</isShow>
+            <isSelect>true</isSelect>
+            <isPortOut>true</isPortOut>
+        </port>
+    </node>
+    <node nodeName="Template" nodeProcessID="1">
+        <port portName="inputImage">
+            <isShow>true</isShow>
+            <isSelect>true</isSelect>
+            <isPortOut>false</isPortOut>
+        </port>
+        <port portName="outText">
+            <isShow>true</isShow>
+            <isSelect>true</isSelect>
+            <isPortOut>true</isPortOut>
+        </port>
+    </node>
+</nodesView>
+
+<config process="0">
+    <node nodeName="Image" nodeProcessID="0">
+        <imageList path="C:/Users/Public/Documents/MVTec/HALCON-18.11-Progress/examples/images/ampoules/ampoules_05.png"/>
+        <imageList path="C:/Users/Public/Documents/MVTec/HALCON-18.11-Progress/examples/images/ampoules/ampoules_06.png"/>
+        <imageList path="C:/Users/Public/Documents/MVTec/HALCON-18.11-Progress/examples/images/ampoules/ampoules_07.png"/>
+        <imageList path="C:/Users/Public/Documents/MVTec/HALCON-18.11-Progress/examples/images/ampoules/ampoules_08.png"/>
+        <imageList path="C:/Users/Public/Documents/MVTec/HALCON-18.11-Progress/examples/images/ampoules/ampoules_01.png"/>
+        <imageList path="C:/Users/Public/Documents/MVTec/HALCON-18.11-Progress/examples/images/ampoules/ampoules_02.png"/>
+        <imageList path="C:/Users/Public/Documents/MVTec/HALCON-18.11-Progress/examples/images/ampoules/ampoules_03.png"/>
+        <imageList path="C:/Users/Public/Documents/MVTec/HALCON-18.11-Progress/examples/images/ampoules/ampoules_04.png"/>
+    </node>
+    <node nodeName="Template" nodeProcessID="1">
+        <hv_MatchMethod>none</hv_MatchMethod>
+        <hv_NumLevels>auto</hv_NumLevels>
+        <hv_AngleStart>-30.000000</hv_AngleStart>
+        <hv_AngleExtent>30.000000</hv_AngleExtent>
+        <hv_AngleStep>auto</hv_AngleStep>
+        <hv_ScaleRMin>1.000000</hv_ScaleRMin>
+        <hv_ScaleRMax>1.000000</hv_ScaleRMax>
+        <hv_ScaleRStep>auto</hv_ScaleRStep>
+        <hv_ScaleCMin>1.000000</hv_ScaleCMin>
+        <hv_ScaleCMax>1.000000</hv_ScaleCMax>
+        <hv_ScaleCStep>auto</hv_ScaleCStep>
+        <hv_Optimization>auto</hv_Optimization>
+        <hv_Metric>use_polarity</hv_Metric>
+        <hv_Contrast>50</hv_Contrast>
+        <hv_MinContrast>20</hv_MinContrast>
+        <hv_Angle_Original>0.000000</hv_Angle_Original>
+        <hv_CenterRow_Original>229.000000</hv_CenterRow_Original>
+        <hv_CenterCol_Original>402.500000</hv_CenterCol_Original>
+        <hv_MinScore>0.500000</hv_MinScore>
+        <hv_NumMatches>10</hv_NumMatches>
+        <hv_MaxOverlap>0.500000</hv_MaxOverlap>
+        <hv_SubPixel>none</hv_SubPixel>
+        <hv_Greediness>0.900000</hv_Greediness>
+    </node>
+</config>
+
+<scene process="0">{
+    "connections": [
+        {
+            "inPortIndex": 0,
+            "intNodeId": 1,
+            "outNodeId": 0,
+            "outPortIndex": 1
+        }
+    ],
+    "nodes": [
+        {
+            "id": 0,
+            "internal-data": {
+                "model-name": "Image"
+            },
+            "position": {
+                "x": -193,
+                "y": -162
+            }
+        },
+        {
+            "id": 1,
+            "internal-data": {
+                "model-name": "Template"
+            },
+            "position": {
+                "x": 31,
+                "y": 50
+            }
+        }
+    ]
+}
+</scene>

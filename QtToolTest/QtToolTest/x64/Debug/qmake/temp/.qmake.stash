@@ -1,0 +1,41 @@
+QMAKE_CXX.QT_COMPILER_STDCXX = 199711L
+QMAKE_CXX.QMAKE_MSC_VER = 1916
+QMAKE_CXX.QMAKE_MSC_FULL_VER = 191627049
+QMAKE_CXX.COMPILER_MACROS = \
+    QT_COMPILER_STDCXX \
+    QMAKE_MSC_VER \
+    QMAKE_MSC_FULL_VER
+QMAKE_CXX.INCDIRS = \
+    ..\\datas\\halcon\\include \
+    .\\include \
+    .\\ \
+    E:\\Qt5.12.9\\5.12.9\\msvc2017_64\\include \
+    D:\\data\\framework\\demoAlgorithmScene\\QtToolTest\\data \
+    "E:\\Program Files\\OpenCV4.5.3\\build\\include" \
+    "E:\\Program Files (x86)\\MVS\\MVS\\Development\\Includes" \
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\include" \
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\atlmfc\\include" \
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Auxiliary\\VS\\include" \
+    "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\ucrt" \
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include" \
+    "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\um" \
+    "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\shared" \
+    "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\winrt" \
+    "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\cppwinrt" \
+    "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6.1\\Include\\um" \
+    "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6.1\\Include\\um"
+QMAKE_CXX.LIBDIRS = \
+    ..\\datas\\halcon\\lib\\x64-win64 \
+    .\\lib \
+    ..\\x64\\Debug \
+    "E:\\Program Files\\OpenCV4.5.3\\build\\x64\\vc15\\lib" \
+    "E:\\Program Files (x86)\\MVS\\MVS\\Development\\Libraries\\win64" \
+    D:\\data\\framework\\demoAlgorithmScene\\QtToolTest\\x64\\Debug \
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\lib\\x64" \
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\atlmfc\\lib\\x64" \
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Auxiliary\\VS\\lib\\x64" \
+    "C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.22000.0\\ucrt\\x64" \
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Auxiliary\\VS\\UnitTest\\lib" \
+    "C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.22000.0\\um\\x64" \
+    "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6.1\\lib\\um\\x64" \
+    "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6.1\\Lib\\um\\x64"

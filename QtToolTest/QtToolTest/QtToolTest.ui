@@ -1,0 +1,1186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QtToolTestClass</class>
+ <widget class="QMainWindow" name="QtToolTestClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1344</width>
+    <height>889</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QtToolTest</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout_3">
+    <property name="leftMargin">
+     <number>2</number>
+    </property>
+    <property name="topMargin">
+     <number>2</number>
+    </property>
+    <property name="rightMargin">
+     <number>2</number>
+    </property>
+    <property name="bottomMargin">
+     <number>2</number>
+    </property>
+    <property name="spacing">
+     <number>2</number>
+    </property>
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout_13" stretch="1,10">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_12" stretch="1,2">
+        <property name="spacing">
+         <number>1</number>
+        </property>
+        <item>
+         <widget class="QFrame" name="frame_3">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QGridLayout" name="gridLayout">
+           <property name="leftMargin">
+            <number>2</number>
+           </property>
+           <property name="topMargin">
+            <number>2</number>
+           </property>
+           <property name="rightMargin">
+            <number>2</number>
+           </property>
+           <property name="bottomMargin">
+            <number>2</number>
+           </property>
+           <property name="spacing">
+            <number>2</number>
+           </property>
+           <item row="0" column="0">
+            <layout class="QHBoxLayout" name="horizontalLayout_18" stretch="1,1,2,20,1">
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_17" stretch="1,10">
+               <item>
+                <widget class="QLabel" name="label_10">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>100</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap>../../../robert/MatchTest/Resources/Quectel LOGO-20220215.png</pixmap>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="horizontalSpacer_6">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>638</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_4">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_28" stretch="1,1,1,1">
+               <property name="spacing">
+                <number>20</number>
+               </property>
+               <item>
+                <widget class="QToolButton" name="toolButton_4">
+                 <property name="font">
+                  <font>
+                   <family>微软雅黑</family>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="layoutDirection">
+                  <enum>Qt::LeftToRight</enum>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+                 </property>
+                 <property name="text">
+                  <string>设置</string>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextOnly</enum>
+                 </property>
+                 <property name="autoRaise">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QToolButton" name="toolButton_5">
+                 <property name="font">
+                  <font>
+                   <family>微软雅黑</family>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="layoutDirection">
+                  <enum>Qt::LeftToRight</enum>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+                 </property>
+                 <property name="text">
+                  <string>日志</string>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextOnly</enum>
+                 </property>
+                 <property name="autoRaise">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QToolButton" name="toolButton_6">
+                 <property name="font">
+                  <font>
+                   <family>微软雅黑</family>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="layoutDirection">
+                  <enum>Qt::LeftToRight</enum>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+                 </property>
+                 <property name="text">
+                  <string>语言</string>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextOnly</enum>
+                 </property>
+                 <property name="autoRaise">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QToolButton" name="toolButton_7">
+                 <property name="font">
+                  <font>
+                   <family>微软雅黑</family>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="layoutDirection">
+                  <enum>Qt::LeftToRight</enum>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+                 </property>
+                 <property name="text">
+                  <string>帮助</string>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextOnly</enum>
+                 </property>
+                 <property name="autoRaise">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_7">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>678</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_10" stretch="1,11,0">
+               <item>
+                <widget class="QToolButton" name="toolButton">
+                 <property name="autoFillBackground">
+                  <bool>false</bool>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>../../../robert/MatchTest/Resources/窗口最小化.png</normaloff>../../../robert/MatchTest/Resources/窗口最小化.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>25</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QToolButton" name="toolButton_2">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>../../../robert/MatchTest/Resources/expand-全屏化.png</normaloff>../../../robert/MatchTest/Resources/expand-全屏化.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>25</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QToolButton" name="toolButton_3">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>../../../robert/MatchTest/Resources/关闭.png</normaloff>../../../robert/MatchTest/Resources/关闭.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>25</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_4">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(32, 56, 67);</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_4">
+           <property name="leftMargin">
+            <number>1</number>
+           </property>
+           <property name="topMargin">
+            <number>1</number>
+           </property>
+           <property name="rightMargin">
+            <number>1</number>
+           </property>
+           <property name="bottomMargin">
+            <number>1</number>
+           </property>
+           <property name="spacing">
+            <number>1</number>
+           </property>
+           <item row="0" column="0">
+            <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="1,1,1,1,1,1,6">
+             <property name="leftMargin">
+              <number>25</number>
+             </property>
+             <property name="rightMargin">
+              <number>25</number>
+             </property>
+             <item>
+              <widget class="QPushButton" name="pushButton_openProject">
+               <property name="font">
+                <font>
+                 <family>Times New Roman</family>
+                 <pointsize>11</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="autoFillBackground">
+                <bool>false</bool>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(255, 255,255);
+selection-background-color: rgb(145, 145, 145);
+background-color: rgb(47, 64, 69);</string>
+               </property>
+               <property name="text">
+                <string>打开方案</string>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>../../../robert/MatchTest/Resources/打开.png</normaloff>../../../robert/MatchTest/Resources/打开.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>25</width>
+                 <height>25</height>
+                </size>
+               </property>
+               <property name="flat">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton_saveProject">
+               <property name="font">
+                <font>
+                 <family>Times New Roman</family>
+                 <pointsize>11</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="autoFillBackground">
+                <bool>false</bool>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(255, 255,255);
+selection-background-color: rgb(145, 145, 145);
+background-color: rgb(47, 64, 69);</string>
+               </property>
+               <property name="text">
+                <string>保存方案</string>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>../../../robert/MatchTest/Resources/保存.png</normaloff>../../../robert/MatchTest/Resources/保存.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>25</width>
+                 <height>25</height>
+                </size>
+               </property>
+               <property name="flat">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton_camerasetting">
+               <property name="font">
+                <font>
+                 <family>Times New Roman</family>
+                 <pointsize>11</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="autoFillBackground">
+                <bool>false</bool>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(255, 255,255);
+selection-background-color: rgb(145, 145, 145);
+background-color: rgb(47, 64, 69);</string>
+               </property>
+               <property name="text">
+                <string>相机设置</string>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>../../../robert/MatchTest/Resources/拍照.png</normaloff>../../../robert/MatchTest/Resources/拍照.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>25</width>
+                 <height>25</height>
+                </size>
+               </property>
+               <property name="flat">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton_5">
+               <property name="font">
+                <font>
+                 <family>Times New Roman</family>
+                 <pointsize>11</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="autoFillBackground">
+                <bool>false</bool>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(255, 255,255);
+selection-background-color: rgb(145, 145, 145);
+background-color: rgb(47, 64, 69);</string>
+               </property>
+               <property name="text">
+                <string>通讯管理</string>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>../../../robert/MatchTest/Resources/通信管理.png</normaloff>../../../robert/MatchTest/Resources/通信管理.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>25</width>
+                 <height>25</height>
+                </size>
+               </property>
+               <property name="flat">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton_project">
+               <property name="font">
+                <font>
+                 <family>Times New Roman</family>
+                 <pointsize>11</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="autoFillBackground">
+                <bool>false</bool>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(255, 255,255);
+selection-background-color: rgb(145, 145, 145);
+background-color: rgb(47, 64, 69);</string>
+               </property>
+               <property name="text">
+                <string>方案配置</string>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>../../../robert/MatchTest/Resources/方案管理.png</normaloff>../../../robert/MatchTest/Resources/方案管理.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>25</width>
+                 <height>25</height>
+                </size>
+               </property>
+               <property name="flat">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QToolButton" name="toolButton_dataCheck">
+               <property name="font">
+                <font>
+                 <family>Times New Roman</family>
+                 <pointsize>11</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(255, 255,255);
+selection-background-color: rgb(145, 145, 145);
+background-color: rgb(47, 64, 69);</string>
+               </property>
+               <property name="text">
+                <string>数据查询</string>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>../../../robert/MatchTest/Resources/数据查询.png</normaloff>../../../robert/MatchTest/Resources/数据查询.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>25</width>
+                 <height>25</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextBesideIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_3">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>98</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame_2">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(13, 34, 56);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_10">
+         <property name="leftMargin">
+          <number>1</number>
+         </property>
+         <property name="topMargin">
+          <number>1</number>
+         </property>
+         <property name="rightMargin">
+          <number>1</number>
+         </property>
+         <property name="bottomMargin">
+          <number>1</number>
+         </property>
+         <property name="spacing">
+          <number>1</number>
+         </property>
+         <item row="0" column="0">
+          <layout class="QHBoxLayout" name="horizontalLayout_22" stretch="3,1">
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_5" stretch="5,1">
+             <item>
+              <widget class="QFrame" name="frame">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPlainTextEdit" name="plainTextEdit">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(13, 34, 56);</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_11" stretch="1,3,3">
+             <property name="spacing">
+              <number>6</number>
+             </property>
+             <property name="topMargin">
+              <number>5</number>
+             </property>
+             <property name="bottomMargin">
+              <number>5</number>
+             </property>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_8" stretch="3,1">
+               <property name="spacing">
+                <number>12</number>
+               </property>
+               <item>
+                <widget class="QFrame" name="frame_7">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(33, 54, 65);</string>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_2">
+                  <property name="leftMargin">
+                   <number>1</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>1</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>1</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>1</number>
+                  </property>
+                  <property name="spacing">
+                   <number>1</number>
+                  </property>
+                  <item row="0" column="0">
+                   <layout class="QHBoxLayout" name="horizontalLayout_9" stretch="1,6">
+                    <item>
+                     <widget class="QLabel" name="label_result">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>100</width>
+                        <height>100</height>
+                       </size>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="pixmap">
+                       <pixmap>../../../robert/MatchTest/Resources/ok.png</pixmap>
+                      </property>
+                      <property name="scaledContents">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout" stretch="1,1,1">
+                      <item>
+                       <layout class="QHBoxLayout" name="horizontalLayout_8" stretch="0,1,1">
+                        <item>
+                         <widget class="QLineEdit" name="lineEdit_title">
+                          <property name="font">
+                           <font>
+                            <family>微软雅黑</family>
+                            <pointsize>12</pointsize>
+                            <weight>75</weight>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">color: rgb(129, 211, 248);
+background-color: rgb(33, 54, 65);
+gridline-color: rgb(33, 54, 65);</string>
+                          </property>
+                          <property name="text">
+                           <string>移远AI视觉检测平台</string>
+                          </property>
+                          <property name="frame">
+                           <bool>false</bool>
+                          </property>
+                          <property name="readOnly">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QToolButton" name="toolButton_reSet">
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="icon">
+                           <iconset>
+                            <normaloff>../../../robert/MatchTest/Resources/复位1.png</normaloff>../../../robert/MatchTest/Resources/复位1.png</iconset>
+                          </property>
+                          <property name="iconSize">
+                           <size>
+                            <width>15</width>
+                            <height>15</height>
+                           </size>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QToolButton" name="toolButton_Edit">
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="icon">
+                           <iconset>
+                            <normaloff>../../../robert/MatchTest/Resources/编辑.png</normaloff>../../../robert/MatchTest/Resources/编辑.png</iconset>
+                          </property>
+                          <property name="iconSize">
+                           <size>
+                            <width>15</width>
+                            <height>15</height>
+                           </size>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QHBoxLayout" name="horizontalLayout_6" stretch="1,1">
+                        <item>
+                         <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,1">
+                          <item>
+                           <widget class="QLabel" name="label_9">
+                            <property name="font">
+                             <font>
+                              <family>微软雅黑</family>
+                              <pointsize>10</pointsize>
+                              <weight>75</weight>
+                              <bold>true</bold>
+                             </font>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">color: rgb(255, 255, 255);</string>
+                            </property>
+                            <property name="text">
+                             <string>NG数量：</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item>
+                           <widget class="QLabel" name="label_NG">
+                            <property name="font">
+                             <font>
+                              <family>微软雅黑</family>
+                              <pointsize>12</pointsize>
+                              <weight>75</weight>
+                              <bold>true</bold>
+                             </font>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">color: rgb(255, 111, 118);</string>
+                            </property>
+                            <property name="text">
+                             <string>0</string>
+                            </property>
+                           </widget>
+                          </item>
+                         </layout>
+                        </item>
+                        <item>
+                         <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="1,1">
+                          <item>
+                           <widget class="QLabel" name="label_15">
+                            <property name="font">
+                             <font>
+                              <family>微软雅黑</family>
+                              <pointsize>10</pointsize>
+                              <weight>75</weight>
+                              <bold>true</bold>
+                             </font>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">color: rgb(255, 255, 255);</string>
+                            </property>
+                            <property name="text">
+                             <string>合格率：</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item>
+                           <widget class="QLabel" name="label_OKrate">
+                            <property name="font">
+                             <font>
+                              <family>微软雅黑</family>
+                              <pointsize>12</pointsize>
+                              <weight>75</weight>
+                              <bold>true</bold>
+                             </font>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">color: rgb(0, 255, 0);</string>
+                            </property>
+                            <property name="text">
+                             <string>0%</string>
+                            </property>
+                           </widget>
+                          </item>
+                         </layout>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QHBoxLayout" name="horizontalLayout_7" stretch="1,1">
+                        <item>
+                         <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="1,1">
+                          <item>
+                           <widget class="QLabel" name="label_17">
+                            <property name="font">
+                             <font>
+                              <family>微软雅黑</family>
+                              <pointsize>10</pointsize>
+                              <weight>75</weight>
+                              <bold>true</bold>
+                             </font>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">color: rgb(255, 255, 255);</string>
+                            </property>
+                            <property name="text">
+                             <string>检测总数：</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item>
+                           <widget class="QLabel" name="label_AllCount">
+                            <property name="font">
+                             <font>
+                              <family>微软雅黑</family>
+                              <pointsize>12</pointsize>
+                              <weight>75</weight>
+                              <bold>true</bold>
+                             </font>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">color: rgb(255, 255, 255);</string>
+                            </property>
+                            <property name="text">
+                             <string>0</string>
+                            </property>
+                           </widget>
+                          </item>
+                         </layout>
+                        </item>
+                        <item>
+                         <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="1,1">
+                          <item>
+                           <widget class="QLabel" name="label_19">
+                            <property name="font">
+                             <font>
+                              <family>微软雅黑</family>
+                              <pointsize>10</pointsize>
+                              <weight>75</weight>
+                              <bold>true</bold>
+                             </font>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">color: rgb(255, 255, 255);</string>
+                            </property>
+                            <property name="text">
+                             <string>耗时(ms)：</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item>
+                           <widget class="QLabel" name="label_costTime">
+                            <property name="font">
+                             <font>
+                              <family>微软雅黑</family>
+                              <pointsize>12</pointsize>
+                              <weight>75</weight>
+                              <bold>true</bold>
+                             </font>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">color: rgb(255, 255, 0);</string>
+                            </property>
+                            <property name="text">
+                             <string>0</string>
+                            </property>
+                           </widget>
+                          </item>
+                         </layout>
+                        </item>
+                       </layout>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_29" stretch="3,1,3">
+                 <item>
+                  <widget class="QPushButton" name="pushButton_run">
+                   <property name="font">
+                    <font>
+                     <family>微软雅黑</family>
+                     <pointsize>10</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(23, 157, 213);
+color: rgb(255, 255, 255);</string>
+                   </property>
+                   <property name="text">
+                    <string>开始运行</string>
+                   </property>
+                   <property name="icon">
+                    <iconset>
+                     <normaloff>../../../robert/MatchTest/Resources/运行.png</normaloff>../../../robert/MatchTest/Resources/运行.png</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>30</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <spacer name="horizontalSpacer_2">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>40</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="pushButton_stop">
+                   <property name="font">
+                    <font>
+                     <family>微软雅黑</family>
+                     <pointsize>10</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(32, 193, 127);</string>
+                   </property>
+                   <property name="text">
+                    <string>停止运行</string>
+                   </property>
+                   <property name="icon">
+                    <iconset>
+                     <normaloff>../../../robert/MatchTest/Resources/停止.png</normaloff>../../../robert/MatchTest/Resources/停止.png</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>30</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_9" stretch="1,8">
+               <item>
+                <widget class="QFrame" name="frame_9">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(36, 46, 58);</string>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_7">
+                  <property name="leftMargin">
+                   <number>1</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>1</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>1</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>1</number>
+                  </property>
+                  <property name="spacing">
+                   <number>1</number>
+                  </property>
+                  <item row="0" column="0">
+                   <widget class="QLabel" name="label_20">
+                    <property name="font">
+                     <font>
+                      <family>微软雅黑</family>
+                      <pointsize>10</pointsize>
+                      <weight>75</weight>
+                      <bold>true</bold>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(255, 255, 255);</string>
+                    </property>
+                    <property name="text">
+                     <string>流程工具：</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <widget class="QScrollArea" name="scrollArea">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                 <property name="widgetResizable">
+                  <bool>true</bool>
+                 </property>
+                 <widget class="QWidget" name="scrollAreaWidgetContents">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>308</width>
+                    <height>500</height>
+                   </rect>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>250</width>
+                    <height>500</height>
+                   </size>
+                  </property>
+                 </widget>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_10" stretch="1,8">
+               <item>
+                <widget class="QFrame" name="frame_10">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(36, 46, 58);</string>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_8">
+                  <property name="leftMargin">
+                   <number>1</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>1</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>1</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>1</number>
+                  </property>
+                  <property name="spacing">
+                   <number>1</number>
+                  </property>
+                  <item row="0" column="0">
+                   <widget class="QLabel" name="label_23">
+                    <property name="font">
+                     <font>
+                      <family>微软雅黑</family>
+                      <pointsize>10</pointsize>
+                      <weight>75</weight>
+                      <bold>true</bold>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(255, 255, 255);</string>
+                    </property>
+                    <property name="text">
+                     <string>合格率趋势图：</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <widget class="QtCharts::QChartView" name="widget" native="true"/>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QtCharts::QChartView</class>
+   <extends>QWidget</extends>
+   <header location="global">qchartview.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="QtToolTest.qrc"/>
+ </resources>
+ <connections/>
+</ui>

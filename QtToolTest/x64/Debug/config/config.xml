@@ -1,0 +1,212 @@
+<scene process="0">{
+    "connections": [
+        {
+            "inPortIndex": 1,
+            "intNodeId": 1,
+            "outNodeId": 0,
+            "outPortIndex": 2
+        },
+        {
+            "inPortIndex": 1,
+            "intNodeId": 0,
+            "outNodeId": 2,
+            "outPortIndex": 2
+        }
+    ],
+    "nodes": [
+        {
+            "id": 0,
+            "internal-data": {
+                "model-name": "testPort3"
+            },
+            "position": {
+                "x": -243.5,
+                "y": -26.5
+            }
+        },
+        {
+            "id": 1,
+            "internal-data": {
+                "model-name": "testPort"
+            },
+            "position": {
+                "x": 8.5,
+                "y": 3.5
+            }
+        },
+        {
+            "id": 2,
+            "internal-data": {
+                "model-name": "testPort3"
+            },
+            "position": {
+                "x": -160.99999999999994,
+                "y": -232.00000000000003
+            }
+        }
+    ]
+}
+</scene>
+
+<config process="0">
+    <node nodeName="Barcode" nodeProcessID="1">
+        <hv_CodeType_Run>Code 128,Code 39</hv_CodeType_Run>
+        <hv_CodeNum>2</hv_CodeNum>
+        <hv_Tolerance>low</hv_Tolerance>
+        <hv_HeadChar>null</hv_HeadChar>
+        <hv_EndChar>null</hv_EndChar>
+        <hv_ContainChar>null</hv_ContainChar>
+        <hv_NotContainChar>null</hv_NotContainChar>
+        <hv_CodeLength_Run>0</hv_CodeLength_Run>
+        <hv_TimeOut>300</hv_TimeOut>
+    </node>
+    <node nodeName="Barcode" nodeProcessID="2">
+        <hv_CodeType_Run>Code 128,Code 39</hv_CodeType_Run>
+        <hv_CodeNum>1</hv_CodeNum>
+        <hv_Tolerance>low</hv_Tolerance>
+        <hv_HeadChar>null</hv_HeadChar>
+        <hv_EndChar>null</hv_EndChar>
+        <hv_ContainChar>null</hv_ContainChar>
+        <hv_NotContainChar>null</hv_NotContainChar>
+        <hv_CodeLength_Run>2</hv_CodeLength_Run>
+        <hv_TimeOut>50</hv_TimeOut>
+    </node>
+    <node nodeName="Camera" nodeProcessID="0">
+        <factory>HikCamera</factory>
+        <equipment>MV-CS020-10GC</equipment>
+        <SN>DA0035064</SN>
+        <address>169.254.117.222</address>
+        <gain>16.000000</gain>
+        <ExposureTime>15000.000000</ExposureTime>
+        <TriggerMode>1</TriggerMode>
+        <TriggerSource>0</TriggerSource>
+    </node>
+    <node nodeName="Line" nodeProcessID="1">
+        <hv_Row1>243.684631</hv_Row1>
+        <hv_Column1>240.437500</hv_Column1>
+        <hv_Row2>419.742515</hv_Row2>
+        <hv_Column2>243.497024</hv_Column2>
+        <hv_MeasureLength1>100</hv_MeasureLength1>
+        <hv_MeasureLength2>10</hv_MeasureLength2>
+        <hv_MeasureSigma>0.400000</hv_MeasureSigma>
+        <hv_MeasureThreshold>20</hv_MeasureThreshold>
+        <hv_MeasureTransition>positive</hv_MeasureTransition>
+        <hv_MeasureSelect>first</hv_MeasureSelect>
+        <hv_MeasureNum>10</hv_MeasureNum>
+        <hv_InstancesNum>1</hv_InstancesNum>
+        <hv_MeasureMinScore>0.550000</hv_MeasureMinScore>
+        <hv_DistanceThreshold>3.500000</hv_DistanceThreshold>
+        <hv_MeasureInterpolation>nearest_neighbor</hv_MeasureInterpolation>
+        <isFollow>false</isFollow>
+    </node>
+    <node nodeName="Line" nodeProcessID="2">
+        <hv_Row1>10.000000</hv_Row1>
+        <hv_Column1>10.000000</hv_Column1>
+        <hv_Row2>10.000000</hv_Row2>
+        <hv_Column2>50.000000</hv_Column2>
+        <hv_MeasureLength1>50</hv_MeasureLength1>
+        <hv_MeasureLength2>5</hv_MeasureLength2>
+        <hv_MeasureSigma>1.000000</hv_MeasureSigma>
+        <hv_MeasureThreshold>20</hv_MeasureThreshold>
+        <hv_MeasureTransition>all</hv_MeasureTransition>
+        <hv_MeasureSelect>first</hv_MeasureSelect>
+        <hv_MeasureNum>10</hv_MeasureNum>
+        <hv_InstancesNum>1</hv_InstancesNum>
+        <hv_MeasureMinScore>0.500000</hv_MeasureMinScore>
+        <hv_DistanceThreshold>3.500000</hv_DistanceThreshold>
+        <hv_MeasureInterpolation>nearest_neighbor</hv_MeasureInterpolation>
+        <isFollow>false</isFollow>
+    </node>
+    <node nodeName="Line" nodeProcessID="3">
+        <hv_Row1>10.000000</hv_Row1>
+        <hv_Column1>10.000000</hv_Column1>
+        <hv_Row2>10.000000</hv_Row2>
+        <hv_Column2>50.000000</hv_Column2>
+        <hv_MeasureLength1>50</hv_MeasureLength1>
+        <hv_MeasureLength2>5</hv_MeasureLength2>
+        <hv_MeasureSigma>1.000000</hv_MeasureSigma>
+        <hv_MeasureThreshold>20</hv_MeasureThreshold>
+        <hv_MeasureTransition>all</hv_MeasureTransition>
+        <hv_MeasureSelect>first</hv_MeasureSelect>
+        <hv_MeasureNum>10</hv_MeasureNum>
+        <hv_InstancesNum>1</hv_InstancesNum>
+        <hv_MeasureMinScore>0.500000</hv_MeasureMinScore>
+        <hv_DistanceThreshold>3.500000</hv_DistanceThreshold>
+        <hv_MeasureInterpolation>nearest_neighbor</hv_MeasureInterpolation>
+        <isFollow>false</isFollow>
+    </node>
+    <node nodeName="Default" nodeProcessID="1">
+        <hv_Row>331.550898</hv_Row>
+        <hv_Column>417.815109</hv_Column>
+        <hv_Radius>31.755937</hv_Radius>
+        <hv_MeasureLength1>20</hv_MeasureLength1>
+        <hv_MeasureLength2>2</hv_MeasureLength2>
+        <hv_MeasureSigma>0.400000</hv_MeasureSigma>
+        <hv_MeasureThreshold>10</hv_MeasureThreshold>
+        <hv_MeasureTransition>positive</hv_MeasureTransition>
+        <hv_MeasureSelect>first</hv_MeasureSelect>
+        <hv_MeasureNum>20</hv_MeasureNum>
+        <hv_InstancesNum>1</hv_InstancesNum>
+        <hv_MeasureMinScore>0.550000</hv_MeasureMinScore>
+        <hv_DistanceThreshold>3.500000</hv_DistanceThreshold>
+        <hv_MeasureInterpolation>nearest_neighbor</hv_MeasureInterpolation>
+        <isFollow>false</isFollow>
+    </node>
+    <node nodeName="QRCode" nodeProcessID="1">
+        <hv_CodeType_Run>QR Code</hv_CodeType_Run>
+        <hv_CodeNum>1</hv_CodeNum>
+        <hv_Tolerance>high</hv_Tolerance>
+        <hv_HeadChar>null</hv_HeadChar>
+        <hv_EndChar>null</hv_EndChar>
+        <hv_ContainChar>null</hv_ContainChar>
+        <hv_NotContainChar>null</hv_NotContainChar>
+        <hv_CodeLength_Run>2</hv_CodeLength_Run>
+        <hv_TimeOut>100</hv_TimeOut>
+    </node>
+    <node nodeName="Template" nodeProcessID="1">
+        <hv_MatchMethod>none</hv_MatchMethod>
+        <hv_NumLevels>auto</hv_NumLevels>
+        <hv_AngleStart>-30.000000</hv_AngleStart>
+        <hv_AngleExtent>30.000000</hv_AngleExtent>
+        <hv_AngleStep>auto</hv_AngleStep>
+        <hv_ScaleRMin>1.000000</hv_ScaleRMin>
+        <hv_ScaleRMax>1.000000</hv_ScaleRMax>
+        <hv_ScaleRStep>auto</hv_ScaleRStep>
+        <hv_ScaleCMin>1.000000</hv_ScaleCMin>
+        <hv_ScaleCMax>1.000000</hv_ScaleCMax>
+        <hv_ScaleCStep>auto</hv_ScaleCStep>
+        <hv_Optimization>auto</hv_Optimization>
+        <hv_Metric>use_polarity</hv_Metric>
+        <hv_Contrast>50</hv_Contrast>
+        <hv_MinContrast>20</hv_MinContrast>
+        <hv_Angle_Original>0.000000</hv_Angle_Original>
+        <hv_CenterRow_Original>59.000000</hv_CenterRow_Original>
+        <hv_CenterCol_Original>59.500000</hv_CenterCol_Original>
+        <hv_MinScore>0.500000</hv_MinScore>
+        <hv_NumMatches>5</hv_NumMatches>
+        <hv_MaxOverlap>0.500000</hv_MaxOverlap>
+        <hv_SubPixel>none</hv_SubPixel>
+        <hv_Greediness>0.900000</hv_Greediness>
+    </node>
+</config>
+
+<config process="-1">
+    <node nodeName="Line" nodeProcessID="1">
+        <hv_Row1>228.375250</hv_Row1>
+        <hv_Column1>162.419643</hv_Column1>
+        <hv_Row2>219.189621</hv_Row2>
+        <hv_Column2>459.193452</hv_Column2>
+        <hv_MeasureLength1>100</hv_MeasureLength1>
+        <hv_MeasureLength2>10</hv_MeasureLength2>
+        <hv_MeasureSigma>0.400000</hv_MeasureSigma>
+        <hv_MeasureThreshold>20</hv_MeasureThreshold>
+        <hv_MeasureTransition>positive</hv_MeasureTransition>
+        <hv_MeasureSelect>first</hv_MeasureSelect>
+        <hv_MeasureNum>10</hv_MeasureNum>
+        <hv_InstancesNum>1</hv_InstancesNum>
+        <hv_MeasureMinScore>0.550000</hv_MeasureMinScore>
+        <hv_DistanceThreshold>3.500000</hv_DistanceThreshold>
+        <hv_MeasureInterpolation>nearest_neighbor</hv_MeasureInterpolation>
+        <isFollow>false</isFollow>
+    </node>
+</config>
