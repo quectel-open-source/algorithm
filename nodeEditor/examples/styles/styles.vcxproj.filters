@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\examples\styles\styles_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\examples\styles\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\examples\styles\models.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\examples\styles\styles_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\examples\styles\styles_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\examples\styles\styles_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\examples\styles\models.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\examples\styles\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{FF81E8A7-64BC-3F69-A59C-7B432F1FB9F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4ACF9FFA-A902-3DA1-AD39-5B498388DE09}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

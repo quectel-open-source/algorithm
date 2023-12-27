@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\examples\calculator\headless_calculator_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\examples\calculator\headless_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\examples\calculator\MathOperationDataModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\examples\calculator\NumberDisplayDataModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\examples\calculator\NumberSourceDataModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\examples\calculator\headless_calculator_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\examples\calculator\headless_calculator_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\examples\calculator\headless_calculator_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\examples\calculator\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4ACF9FFA-A902-3DA1-AD39-5B498388DE09}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

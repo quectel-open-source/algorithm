@@ -1,0 +1,130 @@
+{
+	"BUILD_DIR" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/examples/calculator/headless_calculator_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/examples/calculator",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/examples/calculator",
+	"CMAKE_EXECUTABLE" : "E:/Program Files/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/examples/calculator/CMakeLists.txt"
+	],
+	"CMAKE_SOURCE_DIR" : "C:/Users/weilong.wu/Desktop/QT/nodeeditor-master",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/examples/calculator/MathOperationDataModel.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_MathOperationDataModel.cpp",
+			null
+		],
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/examples/calculator/NumberDisplayDataModel.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_NumberDisplayDataModel.cpp",
+			null
+		],
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/examples/calculator/NumberSourceDataModel.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_NumberSourceDataModel.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/examples/calculator/headless_calculator_autogen/include",
+	"INCLUDE_DIR_Debug" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/examples/calculator/headless_calculator_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/examples/calculator/headless_calculator_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/examples/calculator/headless_calculator_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/examples/calculator/headless_calculator_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/examples/calculator/headless_calculator_autogen/mocs_compilation.cpp",
+	"MOC_COMPILATION_FILE_Debug" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/examples/calculator/headless_calculator_autogen/mocs_compilation_Debug.cpp",
+	"MOC_COMPILATION_FILE_MinSizeRel" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/examples/calculator/headless_calculator_autogen/mocs_compilation_MinSizeRel.cpp",
+	"MOC_COMPILATION_FILE_RelWithDebInfo" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/examples/calculator/headless_calculator_autogen/mocs_compilation_RelWithDebInfo.cpp",
+	"MOC_COMPILATION_FILE_Release" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/examples/calculator/headless_calculator_autogen/mocs_compilation_Release.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"NODE_EDITOR_SHARED",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_OPENGL_LIB",
+		"QT_WIDGETS_LIB",
+		"WIN32"
+	],
+	"MOC_DEFINITIONS_Debug" : 
+	[
+		"NODE_EDITOR_SHARED",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_OPENGL_LIB",
+		"QT_WIDGETS_LIB",
+		"WIN32"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/include",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/include",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/include/QtCore",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/mkspecs/win32-msvc",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/include/QtWidgets",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/include/QtGui",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/include/QtANGLE",
+		"E:/Qt5.12.9/5.12.9/msvc2017_64/include/QtOpenGL"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/examples/calculator/CMakeFiles/headless_calculator_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/examples/calculator/CMakeFiles/headless_calculator_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_MinSizeRel" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/examples/calculator/CMakeFiles/headless_calculator_autogen.dir/ParseCache_MinSizeRel.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/examples/calculator/CMakeFiles/headless_calculator_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/examples/calculator/CMakeFiles/headless_calculator_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "E:/Qt5.12.9/5.12.9/msvc2017_64/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 12,
+	"SETTINGS_FILE" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/examples/calculator/CMakeFiles/headless_calculator_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/examples/calculator/CMakeFiles/headless_calculator_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/examples/calculator/CMakeFiles/headless_calculator_autogen.dir/AutogenUsed_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/examples/calculator/CMakeFiles/headless_calculator_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "C:/Users/weilong.wu/Desktop/QT/nodeEditor/examples/calculator/CMakeFiles/headless_calculator_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/examples/calculator/MathOperationDataModel.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/examples/calculator/NumberDisplayDataModel.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/examples/calculator/NumberSourceDataModel.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/examples/calculator/headless_main.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}
