@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E554EDCF-0374-31F6-945A-921BFBBD28AE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -SC:/Users/weilong.wu/Desktop/QT/nodeeditor-master -BC:/Users/weilong.wu/Desktop/QT/nodeEditor --check-stamp-file C:/Users/weilong.wu/Desktop/QT/nodeEditor/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\3.26.1\CMakeCXXCompiler.cmake;C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\3.26.1\CMakeRCCompiler.cmake;C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\3.26.1\CMakeSystem.cmake;C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\cmake\QtNodesConfig.cmake.in;C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\resources\resources.qrc;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseArguments.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -SC:/Users/weilong.wu/Desktop/QT/nodeeditor-master -BC:/Users/weilong.wu/Desktop/QT/nodeEditor --check-stamp-file C:/Users/weilong.wu/Desktop/QT/nodeEditor/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\3.26.1\CMakeCXXCompiler.cmake;C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\3.26.1\CMakeRCCompiler.cmake;C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\3.26.1\CMakeSystem.cmake;C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\cmake\QtNodesConfig.cmake.in;C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\resources\resources.qrc;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseArguments.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -SC:/Users/weilong.wu/Desktop/QT/nodeeditor-master -BC:/Users/weilong.wu/Desktop/QT/nodeEditor --check-stamp-file C:/Users/weilong.wu/Desktop/QT/nodeEditor/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\3.26.1\CMakeCXXCompiler.cmake;C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\3.26.1\CMakeRCCompiler.cmake;C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\3.26.1\CMakeSystem.cmake;C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\cmake\QtNodesConfig.cmake.in;C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\resources\resources.qrc;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseArguments.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/weilong.wu/Desktop/QT/nodeeditor-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -SC:/Users/weilong.wu/Desktop/QT/nodeeditor-master -BC:/Users/weilong.wu/Desktop/QT/nodeEditor --check-stamp-file C:/Users/weilong.wu/Desktop/QT/nodeEditor/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\3.26.1\CMakeCXXCompiler.cmake;C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\3.26.1\CMakeRCCompiler.cmake;C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\3.26.1\CMakeSystem.cmake;C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\cmake\QtNodesConfig.cmake.in;C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\resources\resources.qrc;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseArguments.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;E:\Program Files\CMake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;E:\Qt5.12.9\5.12.9\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\ZERO_CHECK.vcxproj">
+      <Project>{EC88CCB9-3DB4-345E-8925-350111F00081}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\QtNodes.vcxproj">
+      <Project>{CB93C5D7-C3A4-3849-B5D1-E40A97E38DDF}</Project>
+      <Name>QtNodes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\examples\calculator\calculator.vcxproj">
+      <Project>{22B21DAD-81DD-3516-9BA4-9484FB8D7F95}</Project>
+      <Name>calculator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\examples\connection_colors\connection_colors.vcxproj">
+      <Project>{B6EA815C-87AD-3075-BC6B-E58DE4706B08}</Project>
+      <Name>connection_colors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\examples\dynamic_ports\dynamic_ports.vcxproj">
+      <Project>{F3193CBF-BAD7-3E9B-B6A0-63190C869176}</Project>
+      <Name>dynamic_ports</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\examples\calculator\headless_calculator.vcxproj">
+      <Project>{64AB5A39-B30D-3BC6-9916-D262E5F65AFA}</Project>
+      <Name>headless_calculator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\examples\lock_nodes_and_connections\lock_nodes_and_connections.vcxproj">
+      <Project>{B63277CD-AACF-30A1-87A7-CB304F85D0A1}</Project>
+      <Name>lock_nodes_and_connections</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\examples\resizable_images\resizable_images.vcxproj">
+      <Project>{78DE4E75-30BD-3484-AC5B-AB1F2BC4B7BD}</Project>
+      <Name>resizable_images</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\examples\simple_graph_model\simple_graph_model.vcxproj">
+      <Project>{E58254E8-F1D9-38C6-92AD-C75F46232960}</Project>
+      <Name>simple_graph_model</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\examples\styles\styles.vcxproj">
+      <Project>{9506DEFE-E7D4-3066-A646-CF4CE6BBEEDF}</Project>
+      <Name>styles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\examples\text\text.vcxproj">
+      <Project>{17508CA6-CBFD-3687-8838-BA69FBDA35B6}</Project>
+      <Name>text</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\examples\vertical_layout\vertical_layout.vcxproj">
+      <Project>{AE1F3013-9D29-33AC-A010-7CC4639CBA9A}</Project>
+      <Name>vertical_layout</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

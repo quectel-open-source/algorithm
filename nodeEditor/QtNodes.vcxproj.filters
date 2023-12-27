@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\QtNodes_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\src\AbstractGraphModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\src\AbstractNodeGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\src\BasicGraphicsScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\src\ConnectionGraphicsObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\src\ConnectionPainter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\src\ConnectionState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\src\ConnectionStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\src\DataFlowGraphModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\src\DataFlowGraphicsScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\src\DefaultHorizontalNodeGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\src\DefaultVerticalNodeGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\src\Definitions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\src\GraphicsView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\src\GraphicsViewStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\src\NodeDelegateModelRegistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\src\NodeConnectionInteraction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\src\NodeDelegateModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\src\NodeGraphicsObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\src\DefaultNodePainter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\src\NodeState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\src\NodeStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\src\StyleCollection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\src\UndoCommands.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\src\locateNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\qrc_resources.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\include\QtNodes\internal\moc_AbstractGraphModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\include\QtNodes\internal\moc_AbstractNodeGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\include\QtNodes\internal\moc_AbstractNodePainter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\include\QtNodes\internal\moc_BasicGraphicsScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\include\QtNodes\internal\moc_Compiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\include\QtNodes\internal\moc_ConnectionGraphicsObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\include\QtNodes\internal\moc_ConnectionIdHash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\include\QtNodes\internal\moc_ConnectionIdUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\include\QtNodes\internal\moc_ConnectionState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\include\QtNodes\internal\moc_ConnectionStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\include\QtNodes\internal\moc_DataFlowGraphModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\include\QtNodes\internal\moc_DataFlowGraphicsScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\include\QtNodes\internal\moc_DefaultNodePainter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\include\QtNodes\internal\moc_Definitions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\include\QtNodes\internal\moc_Export.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\include\QtNodes\internal\moc_GraphicsView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\include\QtNodes\internal\moc_GraphicsViewStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\include\QtNodes\internal\moc_NodeData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\include\QtNodes\internal\moc_NodeDelegateModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\include\QtNodes\internal\moc_NodeDelegateModelRegistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\include\QtNodes\internal\moc_NodeGraphicsObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\include\QtNodes\internal\moc_NodeState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\include\QtNodes\internal\moc_NodeStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\include\QtNodes\internal\moc_OperatingSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\include\QtNodes\internal\moc_QStringStdHash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\include\QtNodes\internal\moc_QUuidStdHash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\include\QtNodes\internal\moc_Serializable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\include\QtNodes\internal\moc_Style.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\include\QtNodes\internal\moc_StyleCollection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\include\QtNodes\internal\moc_locateNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\QtNodes_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\QtNodes_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\QtNodes_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\include\QtNodes\internal\AbstractGraphModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\include\QtNodes\internal\AbstractNodeGeometry.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\include\QtNodes\internal\AbstractNodePainter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\include\QtNodes\internal\BasicGraphicsScene.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\include\QtNodes\internal\Compiler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\include\QtNodes\internal\ConnectionGraphicsObject.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\include\QtNodes\internal\ConnectionIdHash.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\include\QtNodes\internal\ConnectionIdUtils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\include\QtNodes\internal\ConnectionState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\include\QtNodes\internal\ConnectionStyle.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\include\QtNodes\internal\DataFlowGraphicsScene.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\include\QtNodes\internal\DataFlowGraphModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\include\QtNodes\internal\DefaultNodePainter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\include\QtNodes\internal\Definitions.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\include\QtNodes\internal\Export.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\include\QtNodes\internal\GraphicsView.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\include\QtNodes\internal\GraphicsViewStyle.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\include\QtNodes\internal\locateNode.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\include\QtNodes\internal\NodeData.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\include\QtNodes\internal\NodeDelegateModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\include\QtNodes\internal\NodeDelegateModelRegistry.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\include\QtNodes\internal\NodeGraphicsObject.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\include\QtNodes\internal\NodeState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\include\QtNodes\internal\NodeStyle.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\include\QtNodes\internal\OperatingSystem.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\include\QtNodes\internal\QStringStdHash.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\include\QtNodes\internal\QUuidStdHash.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\include\QtNodes\internal\Serializable.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\include\QtNodes\internal\Style.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\include\QtNodes\internal\StyleCollection.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\src\ConnectionPainter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\src\DefaultHorizontalNodeGeometry.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\src\DefaultVerticalNodeGeometry.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\src\NodeConnectionInteraction.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\src\UndoCommands.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\resources\resources.qrc" />
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\67f8a0e117eade4d6239d8b0b10a0828\moc_AbstractGraphModel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\67f8a0e117eade4d6239d8b0b10a0828\moc_AbstractNodeGeometry.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\67f8a0e117eade4d6239d8b0b10a0828\moc_AbstractNodePainter.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\67f8a0e117eade4d6239d8b0b10a0828\moc_BasicGraphicsScene.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\67f8a0e117eade4d6239d8b0b10a0828\moc_Compiler.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\67f8a0e117eade4d6239d8b0b10a0828\moc_ConnectionGraphicsObject.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\67f8a0e117eade4d6239d8b0b10a0828\moc_ConnectionIdHash.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\67f8a0e117eade4d6239d8b0b10a0828\moc_ConnectionIdUtils.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\67f8a0e117eade4d6239d8b0b10a0828\moc_ConnectionState.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\67f8a0e117eade4d6239d8b0b10a0828\moc_ConnectionStyle.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\67f8a0e117eade4d6239d8b0b10a0828\moc_DataFlowGraphModel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\67f8a0e117eade4d6239d8b0b10a0828\moc_DataFlowGraphicsScene.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\67f8a0e117eade4d6239d8b0b10a0828\moc_DefaultNodePainter.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\67f8a0e117eade4d6239d8b0b10a0828\moc_Definitions.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\67f8a0e117eade4d6239d8b0b10a0828\moc_Export.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\67f8a0e117eade4d6239d8b0b10a0828\moc_GraphicsView.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\67f8a0e117eade4d6239d8b0b10a0828\moc_GraphicsViewStyle.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\67f8a0e117eade4d6239d8b0b10a0828\moc_NodeData.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\67f8a0e117eade4d6239d8b0b10a0828\moc_NodeDelegateModel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\67f8a0e117eade4d6239d8b0b10a0828\moc_NodeDelegateModelRegistry.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\67f8a0e117eade4d6239d8b0b10a0828\moc_NodeGraphicsObject.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\67f8a0e117eade4d6239d8b0b10a0828\moc_NodeState.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\67f8a0e117eade4d6239d8b0b10a0828\moc_NodeStyle.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\67f8a0e117eade4d6239d8b0b10a0828\moc_OperatingSystem.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\67f8a0e117eade4d6239d8b0b10a0828\moc_QStringStdHash.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\67f8a0e117eade4d6239d8b0b10a0828\moc_QUuidStdHash.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\67f8a0e117eade4d6239d8b0b10a0828\moc_Serializable.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\67f8a0e117eade4d6239d8b0b10a0828\moc_Style.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\67f8a0e117eade4d6239d8b0b10a0828\moc_StyleCollection.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeEditor\CMakeFiles\67f8a0e117eade4d6239d8b0b10a0828\moc_locateNode.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\weilong.wu\Desktop\QT\nodeeditor-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A7A4B90A-31F8-3ACE-8915-49E8E812799F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{FF81E8A7-64BC-3F69-A59C-7B432F1FB9F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4ACF9FFA-A902-3DA1-AD39-5B498388DE09}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
